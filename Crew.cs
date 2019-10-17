@@ -6,6 +6,7 @@ namespace heist2 {
         public string Name { get; set; }
         public int SkillLevel { get; set; }
         public int PercentageCut { get; set; }
+        public string Speciality { get; set; } = "Hacker";
 
         public void PerformSkill(Bank bank)
         {
@@ -22,6 +23,7 @@ namespace heist2 {
         public string Name { get; set; }
         public int SkillLevel { get; set; }
         public int PercentageCut { get; set; }
+        public string Speciality { get; set; } = "Muscle";
 
         public void PerformSkill(Bank bank)
         {
@@ -38,6 +40,7 @@ namespace heist2 {
         public string Name { get; set; }
         public int SkillLevel { get; set; }
         public int PercentageCut { get; set; }
+        public string Speciality {get; set; } = "Lock Pick";
 
         public void PerformSkill(Bank bank)
         {
